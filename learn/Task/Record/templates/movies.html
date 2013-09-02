@@ -1,0 +1,13 @@
+{% include 'header.html' %}
+{% load favorites_tags %}   
+        {% for movie in movies %}
+<div class= "movie">
+        <h2> {{ movie.name }}[<a href="{% url_add_to_favorites movie %}"> add to favorite</a>]</h2>
+<h6>Added on:{{ movie.date }}</h6>
+<br/>
+       <p> {{ movie.movie_descp }}</p>
+</div>
+{% endfor %}
+
+        <br />
+        {% include 'footer.html' %}

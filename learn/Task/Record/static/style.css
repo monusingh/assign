@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    width: 800px;
+    height: 100%;
+    margin: 50px auto;
+}
+
+ul#pageList {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+ul#pageList li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.movie, .page {
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+#content{
+width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+
+
+#footer {
+   width: 640px;
+   background:white;
+   font: italic blue normal 60% 'Times New Roman', Times, serif;	
+   <!margin: 0;>
+   padding: 10px 0px 10px 0px;
+   color:blue;
+}
